@@ -18,4 +18,4 @@
 /frp            emmc    /dev/block/bootdevice/by-name/frp           flags=backup=1;subpartitionof=/persist
 
 # Removable storage
-/usb-otg        vfat    /dev/block/sda1         /dev/block/sda      flags=storage;wipeingui;removable
+/usb-otg        vfat    /dev/block/sda1         /dev/block/sda      flags=display="usb-otg";storage;wipeingui;removable;fsflags="utf8"
